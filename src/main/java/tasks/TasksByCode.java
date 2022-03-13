@@ -73,13 +73,10 @@ public class TasksByCode {
 
         //Вывести строку указанное число раз с разделителем
         for (int i = 0; i < 5; i++) {
-            textOne.split(";");
-            //System.out.print(stringBuffer + "; ");
+            System.out.print(stringBuffer + "; ");
         }
         System.out.println();
 
-//      String inputWord = scan.next();
-//      isPalindrome(inputWord);
         isPalindrome(textOne);
         System.out.println();
 
